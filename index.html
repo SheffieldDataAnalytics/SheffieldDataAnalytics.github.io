@@ -1,43 +1,85 @@
 <html>
 <head>
-<title> Sheffield Data Analytics
-</title>
+  <!-- Addign Bootstrap 4.0 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  <title> Sheffield Data Analytics </title>
+
+  <!-- Minimal styling -->
+<style>
+  h1, h2, h3{
+    color: #CC0055;
+  }
+  .main-title{
+    padding: 25 0px;
+  }
+</style>
+
 </head>
+
 <body>
-<h1> Introduction to Python </h1>
-<p>This site gives details on how to access the Introduction to Python material that has been designed for students of The University of Sheffield's Data Analytics MSc.
-  The material is designed for you to work through in your own time before you start with us at Sheffield.
-</p>
+  <div  class='container'>
+    <h1 class='main-title'> Introduction to Python </h1>
 
-  <h2>Jupyter notebooks on Microsoft Azure Cloud</h2>
+    <p>This site gives details on how to access the Introduction to Python material
+      that has been designed for students of The University of Sheffield's Data
+       Analytics MSc.
+      The material is designed for you to work through in your own time before
+      you start with us at Sheffield.
+    </p>
 
-  <p>
-    The course materials are delivered as <a href="http://jupyter.org/">Jupyter Notebooks</a> which is a literate computing platform that is widely used in data science.
-    Computer power is provided by Microsoft Azure Cloud so you do not need to install anything on your own machine.
-    All you need is a web broswer and a free acount on <a href="https://notebooks.azure.com/">https://notebooks.azure.com/</a>.
-  </p>
-  <b>To access the material:</b>
-  <p>
-  <ol>
-    <li>Create a <a href="https://notebooks.azure.com/">Microsoft Azure Notebooks account</a>. Head to the website and click on sign-in (upper right corner). Use your email address and set a password.</li>
-    <li>Make sure you are logged into your account. It will initally be empty.</li>
-    <li>Click on the notebook library you wish to access from the list further down this page.</li>
-    <li>Click on <b>Clone</b> and follow the on screen directions.  This copies the notebooks to your account.</li>
-    <img src="clone.png" width="400"></img>
-    <li>Click on a notebook file in the list. This will start a notebook server and allow you to work through the material</li>
-  <br>
-  <img src="file_list.png" width="500"></img>
-  </ol>
-  </p>
-  
-  <h3>Notebook libraries containing the course material</h3>
-  <ul>
-    <li><a href="https://notebooks.azure.com/walkingrandomly/libraries/SDA-Python1">Introduction to Python</a> - for complete beginners.</li>
-    <li><a href="https://notebooks.azure.com/walkingrandomly/libraries/SDA-Python1-sols">Solutions to 'Introduction to Python'</a></li>
-    <li><a href="https://notebooks.azure.com/walkingrandomly/libraries/SDA-Pydata">Python for Data Analytics</a> - Extra material useful for data science</li>  
-    <li><a href="https://notebooks.azure.com/walkingrandomly/libraries/SDA-pydata-sols">Solutions to 'Python for Data Analytics'</a></li>
-</ul>
-  
-  
-  </body>
+    <h2>Jupyter notebooks on Microsoft Azure Cloud</h2>
+
+    <p>
+      The course materials are delivered as
+      <a href="http://jupyter.org/">Jupyter Notebooks</a> which is a literate
+      computing platform that is widely used in data science.
+      Computer power is provided by Microsoft Azure Cloud so you do not need to
+      install anything on your own machine.
+      All you need is a web broswer and a free acount on
+      <a href="https://notebooks.azure.com/">https://notebooks.azure.com/</a>.
+    </p>
+
+    <b>To access the material:</b>
+
+    <p>
+      <ol>
+        <li> Create a <a href="https://notebooks.azure.com/">Microsoft Azure
+          Notebooks account</a>. Head to the website and click on sign-in
+          (upper right corner). Use your email address and set a password.</li>
+        <li> Make sure you are logged into your account. It will initally be empty.</li>
+        <li> Click on the notebook library you wish to access from the list
+          further down this page.</li>
+        <li> Click on <b>Clone</b> and follow the on screen directions.
+          This copies the notebooks to your account.</li>
+        <br />
+        <img src="clone.png" width="400"></img>
+        <br />
+        <li> Click on a notebook file in the list. This will start a notebook
+          server and allow you to work through the material</li>
+        <br />
+        <img src="file_list.png" width="500"></img>
+      </ol>
+    </p>
+
+    <br  />
+    <h3>Notebook libraries containing the course material</h3>
+
+    <ul class='list-group'>
+      <li class='list-group-item'><a href="https://notebooks.azure.com/walkingrandomly/libraries/SDA-Python1">Introduction to Python</a> - for complete beginners.</li>
+      <li class='list-group-item'><a href="https://notebooks.azure.com/walkingrandomly/libraries/SDA-Python1-sols">Solutions to 'Introduction to Python'</a></li>
+      <li class='list-group-item'><a href="https://notebooks.azure.com/walkingrandomly/libraries/SDA-Pydata">Python for Data Analytics</a> - Extra material useful for data science</li>
+      <li class='list-group-item'><a href="https://notebooks.azure.com/walkingrandomly/libraries/SDA-pydata-sols">Solutions to 'Python for Data Analytics'</a></li>
+    </ul>
+
+
+  </div>
+
+</body>
+
+<!-- Adding JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
 </html>
